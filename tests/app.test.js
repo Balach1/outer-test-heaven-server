@@ -1,6 +1,6 @@
 const { expect } = require("@jest/globals");
 const request = require("supertest");
-const app = require("../app");
+const app = require("../src/app");
 
 describe("Test the root path & If Hello world is being returned", () => {
     test("It should response the GET method", async () => {
